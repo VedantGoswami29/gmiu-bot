@@ -62,6 +62,7 @@ Question ID: GEN-001
 Question: What are your business hours?
 Answer: Our office is open from 9:00 AM to 6:00 PM, Monday to Friday.
 Keywords: hours, open, timing, business hours
+References: https://www.example.com/
 
 ____________________________________
 
@@ -69,6 +70,7 @@ Question ID: GEN-002
 Question: Where is your office located?
 Answer: We are located at 123 Tech Park, Innovation Drive, Silicon Valley.
 Keywords: location, address, find us, direction
+References: https://www.example.com/
 
 ____________________________________
 
@@ -76,6 +78,7 @@ Question ID: FIN-001
 Question: How can I request a refund?
 Answer: To request a refund, please email our support team at support@example.com with your order details. The refund process usually takes 5-7 business days.
 Keywords: refund, money back, return policy
+References: https://www.example.com/
 ```
 ### 6. Initialize FAQ's Database
 ``` bash
