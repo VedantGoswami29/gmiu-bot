@@ -230,6 +230,7 @@
                     typingIndicator.remove();
                     console.log(data);
                     const reply = data.answer || "Sorry, I didn't understand that.";
+                    const link = data?.link || "https://gmiu.edu.in/gmiu/admission/"; // Can used in UI for better results
                     addMessage(reply, "bot");
                 })
                 .catch(err => {

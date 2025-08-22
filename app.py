@@ -87,6 +87,7 @@ def ask_question():
         return jsonify({
             "answer": faq_data[best_match_index]['answer'],
             "matched_question": faq_data[best_match_index]['question'],
+            "link": faq_data[best_match_index]['reference'],
             "confidence": confidence
         })
     else:
