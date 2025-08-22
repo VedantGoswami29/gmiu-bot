@@ -1,0 +1,9 @@
+.vscode
+.DS_STORE
+.venv
+.env
+.cache
+.hf_cache
+__pycache__
+faqs/
+*.db
